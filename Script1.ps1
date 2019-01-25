@@ -170,7 +170,7 @@
 	Start-Process $PathDrive':\new computers\app\openvpn-install-2.3.14-I601-x86_64' '/S'
 	Start-Process $PathDrive':\new computers\app\tightvnc-2.8.11-gpl-setup-64bit.msi' '/quiet'
 	Start-Process $PathDrive':\new computers\app\GOLD - Javy\jre-6u25-windows-x64' '/quiet'
-	Start-Process $PathDrive':\new computers\app\GOLD - Javy\jre-6u25-windows-x64' '/quiet'
+	Start-Process $PathDrive':\new computers\app\GOLD - Javy\jre-6u25-windows-i586' '/quiet'
 
 # Install .NET Framework 2.0, 3.0 and 3.5 runtimes - Requires internet connection
 	Write-Output "Installing .NET Framework 2.0, 3.0 and 3.5 runtimes..."

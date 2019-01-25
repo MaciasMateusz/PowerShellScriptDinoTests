@@ -5,9 +5,6 @@
 	Write-Output "Podaj imie i nazwisko"
 	$UserName = Read-Host -AsString
 
-	Write-Output "Podaj haslo uzytkownika"
-	$Password = Read-Host -AsSecureString
-
 	DO {
 		Write-Output "Podaj haslo uzytkownika"
 		$Password = Read-Host -AsSecureString
